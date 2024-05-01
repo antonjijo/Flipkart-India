@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="plus.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,168 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart Plus</title>
     <link rel="icon" href="Logo.png">
-    <link rel="stylesheet" href="plus.css"> <!-- Your CSS file -->
 </head>
 <body>
-    <script>
-        var isMobileOrTablet = /iPhone|iPad|iPod|Android|BlackBerry|webOS|Windows Phone|Opera Mini|IEMobile/i.test(
-          navigator.userAgent
-        );
-        if (isMobileOrTablet) {
-            document.body.innerHTML = `
-                <h1>This website is intended for desktop/laptop users only.</h1>
-                <h1>Still the website is under work for mobile and tablet users</h1>
-                <p>Please use a desktop or laptop to access this content.</p>
-            `;
-        }
-    </script>
     <nav class="navbar">
-        <div class="head">
-            <a href="https://www.flipkart.com/"><img src="output-onlinetools.png" alt="Flipkart Logo"></a>
-        </div>
+        <div class="head"><a href="https://www.flipkart.com/"><img src="output-onlinetools.png"></a></div>
         <ul class="navul">
             <li>
-                <input type="text" class="search" placeholder="Search for Products, Brands, and more">
-            </li>
-            <li class="lhov"><div class="Login"><img src="user white.png" alt="User Icon"></div> Login</li>
-            <select class="options" onchange="if(this.value !== '') window.location.href=this.value;">
-                <option value=""></option>
-                <option class="profile" value="profile.html">My Profile</option>
-                <option class="plus" value="plus.html">Flipkart Plus Zone</option>
-                <option class="orders" value="orders.html">Orders</option>
-                <option class="wishlist" value="wishlist.html">Wishlist</option>
-                <option class="rewards" value="rewards.html">Rewards</option>
-                <option class="redeem" value="redeem.html">Gift Cards</option>
-            </select>
-            <li class="chov"><div class="cart"><a class="txtcart" href="cart.html"><img src="cart white.png" alt="Cart Icon"></div> Cart</a></li>
-            <li class="shov"><div class="sell"><a class="txtsell" href="sell.html"><img src="store white.png" alt="Store Icon"></div> Become a Seller</a></li>
-            <li><a class="linkapp" href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"><div class="app"><img src="icons8-flipkart-32.png" alt="App Icon"></div> Install App</a></li>
+                <input type="text" class="search" placeholder="Search for Products, Brands and more">
+            
+            <li class="lhov"><div class="Login"><img src="user white.png"></div> Login</li>
+                <select class="options" onchange="if(this.value !== '') window.location.href=this.value;">
+                    <option value=""></option>
+                    <option class="signup" value="upflip.html">Signup</option>
+                    <option class="profile" value="profile.html">My profile</option>
+                    <option class="orders" value="orders.html">Orders</option>
+                    <option class="wishlist" value="wishlist.html">Wishlist</option>
+                    <option class="rewards" value="rewards.html">Rewards</option>
+                    <option class="redeem" value="redeem.html">Gift cards</option>
+                  </select>
+                  
+            <li class="chov"><div class="cart"><a class="txtcart" href="cart.html"><img src="cart white.png"></div> Cart</a>
+            <li class="shov"><div class="sell"><a class="txtsell" href="sell.html"><img src="store white.png"></div> Become a seller</a>
+            <li><a class="linkapp" href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"><div class="app"><img src="icons8-flipkart-32.png"></div>Install app</a>
         </ul>
     </nav>
-
     <div class="pro-box">
-        <ul>
-            <div class="products"><a href="https://www.flipkart.com/grocery-supermart-store">Grocery</a></div>
-            <div class="products"><a href="https://www.flipkart.com/mobile-phones-store">Mobiles</a></div>
-            <div class="products"><a href="https://www.flipkart.com/search?q=fashion">Fashion</a></div>
-            <div class="products"><a href="https://www.flipkart.com/flipkart-electronics-new-store">Electronics</a></div>
-            <div class="products"><a href="https://www.flipkart.com/home-kitchen2023-store">Home & Furniture</a></div>
-            <div class="products"><a href="https://www.flipkart.com/tvs-and-appliances-new-clp-store">Appliances</a></div>
-            <div class="products"><a href="https://www.flipkart.com/travel/flights">Travel</a></div>
-            <div class="products"><a href="https://www.flipkart.com/beauty-and-grooming/pr">Beauty & Grooming</a></div>
-            <div class="products"><a href="https://www.flipkart.com/two-wheelers-store">Two-wheelers</a></div>
-        </ul>
-    </div>
-
+    <ul>
+        <div class="products"><a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_6c73d7bf-8da3-46c4-964a-2d4f736e9eda_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=CBUR1Q46W5F1">Grocery</a></div>
+        <div class="products"><a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_e3d96e1d-c687-4823-8f02-174c2aab5e81_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=ZRQ4DKH28K8J">Mobiles</a></div>
+        <div class="products"><a href="https://www.flipkart.com/search?q=fashion&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Fashion</a></div>
+        <div class="products"><a href="https://www.flipkart.com/flipkart-electronics-new-store?pageUID=1712685139821">Electronics</a></div>
+        <div class="products"><a href="https://www.flipkart.com/home-kitchen2023-store?pageUID=1712685687349">Home & Furniture</a></div>
+        <div class="products"><a href="https://www.flipkart.com/tvs-and-appliances-new-clp-store?fm=neo%2Fmerchandising&iid=M_360fb4a0-1ac3-4df6-9cb0-53e4128d6f1e_1_372UD5BXDFYS_MC.LO4IWVHA61BX&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_Appliances_LO4IWVHA61BX&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=LO4IWVHA61BX">Appliances</a></div>
+        <div class="products"><a href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_1b39dbcb-5b60-400c-8502-f0b2829d7801_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=V4ZPKTOAO321">Travel</a></div>
+        <div class="products"><a href="https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&otracker=categorytree&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&fm=neo%2Fmerchandising&iid=M_9e57d974-853c-40c6-b532-12f9cb2c1e57_1_372UD5BXDFYS_MC.NJKL2WGZ9KLB&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Beauty%252C%2BToys%2B%2526%2BMore~Beauty%2B%2526%2BPersonal%2BCare~View%2BAll_NJKL2WGZ9KLB&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L2_view-all&cid=NJKL2WGZ9KLB">Toys, Beauty & more</a></div>
+        <div class="products"><a href="https://www.flipkart.com/two-wheelers-store?pageUID=1712686289769">Two-wheelers</a></div>
+    </ul></div>
     <center>
         <div class="plusimg"><img src="plus.jpg" alt="Flipkart Plus Image"></div>
     </center>
-
     <div class="writings">
         <h5 class="writings-head">Get Flipkart Plus Membership Online and Enjoy Benefits for the Plus Life</h5>
-        <p class="words">To democratize access and broaden diversity in e-commerce, Flipkart never stops adding new features...</p>
-
+        <p class="words">To democratise access and broaden diversity in e-commerce, Flipkart never stops adding new features. With this goal in mind, the reward programme Flipkart Plus is designed to improve client relationships and provide them with additional benefits. Flipkart Plus membership is an earned loyalty programme created to satisfy a wide range of Flipkart customers. Hence, there is no Flipkart Plus membership price, however, you can use SuperCoins to access its advantages. Flipkart Plus membership benefits include getting free and quick delivery, as well as access to exclusive marketplace launch previews. Getting priority customer service, acquiring exclusive Flipkart Pay Later choices, and receiving selected rewards from ecosystem partners across travel, OTT, lifestyle, health and fitness, are among the additional advantages. This means that you can (Flipkart) explore plus and get engaged in the Plus campaign and get exclusive deals and benefits. So, if you want to become a member of Flipkart’s prime membership, all you have to do is shop more and earn SuperCoins without having to pay Flipkart membership prices.
+        </p>
         <h5 class="writings-head">All You Need to Know About Flipkart Plus Membership</h5>
-        <p class="words">Flipkart customers receive extra benefits in the form of SuperCoins...</p>
-
+        <p class="words">Flipkart customers receive extra benefits in the form of SuperCoins. Every month, Flipkart issues billions of SuperCoins for its regular customers. You will receive a Plus membership invitation once you have earned 200 SuperCoins in a calendar year. You must activate the invitation within 30 days of receiving it to have access to this Membership. You won't have to use SuperCoins in your account to activate this membership. Spending up to 100 rupees will get you two SuperCoins. You can earn up to 50 SuperCoins in a single order. Besides, SuperCoins can be used to profit from a variety of services and offerings. Flipkart has been working on bringing SuperCoins to the ecosystem since launching the concept in 2021. One move in this direction was the introduction of SuperCoin Pay and SuperCoin Exchange. For Indians, choosing to shop is an emotional decision, and rewarding it wholeheartedly creates a strong emotional connection with the business. This was a crucial realisation that prompted the development of this loyalty programme. The Flipkart Plus phenomenon is particularly pronounced in the heartland cities in Tier 2+ cities of India.
+        </p>
         <h5 class="writings-head">Flipkart Plus Membership Benefits</h5>
-        <p class="words">If you are a member of this loyalty program, you can earn up to four SuperCoins for every 100 rupees you spend...</p>
+        <p class="words">
+            If you are a member of this loyalty program, you can earn up to four SuperCoins for every 100 rupees you spend. This membership offers you free shipping on all Plus products. And, you can get early entry to sales to take advantage of low prices before everyone else. You can also get priority assistance whenever you need it and go ahead of the line. Additionally, you can benefit from a special offer that is exclusively offered to the members. You can get assured enrollment in the Flipkart Pay Later service. To get this membership, all you need to do is purchase your favourite or required item. By making purchases, you can earn Super Coins, which you can then use on Flipkart Plus to redeem great rewards, deals, recharges, and more.
+        </p>
     </div>
-
     <footer>
         <div class="footer-container">
-            <div class="about">
-                <p class="about-head">ABOUT</p>
-                <ul>
-                    <li class="about-writing"><a href="https://www.flipkart.com/helpcentre">Contact Us</a></li>
-                    <li class="about-writing"><a href="https://corporate.flipkart.net/corporate-home">About Us</a></li>
-                    <li class="about-writing"><a href="https://www.flipkartcareers.com/">Careers</a></li>
-                    <li class="about-writing"><a href="http://stories.flipkart.com/">Flipkart Stories</a></li>
-                    <li class="about-writing"><a href="http://stories.flipkart.com/category/top-stories/news/">Press</a></li>
-                    <li class="about-writing"><a href="https://www.flipkart.com/corporate-information">Corporate Information</a></li>
-                </ul>
-            </div>
-
-            <div class="group-companies">
-                <p class="gchead">GROUP COMPANIES</p>
-                <ul>
-                    <li class="gc-writing"><a href="https://www.myntra.com/">Myntra</a></li>
-                    <li class="gc-writing"><a href="https://www.flipkartwholesale.com/">Flipkart Wholesale</a></li>
-                    <li class="gc-writing"><a href="https://www.cleartrip.com/">Cleartrip</a></li>
-                    <li class="gc-writing"><a href="https://www.shopsy.in/">Shopsy</a></li>
-                </ul>
-            </div>
-
-            <div class="help">
-                <p class="hhead">HELP</p>
-                <ul>
-                    <li class="h-writing"><a href="https://www.flipkart.com/pages/payments">Payments</a></li>
-                    <li class="h-writing"><a href="https://www.flipkart.com/pages/shipping">Shipping</a></li>
-                    <li class="h-writing"><a href="https://www.flipkart.com/helpcentre">Cancellation & Returns</a></li>
-                    <li class="h-writing"><a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG">FAQ</a></li>
-                    <li class="h-writing"><a href="https://seller.flipkart.com/fiv">Report Infringement</a></li>
-                </ul>
-            </div>
-
-            <div class="consumer">
-                <p class="chead">CONSUMER POLICY</p>
-                <ul>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/returnpolicy">Cancellation & Returns</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/terms">Terms of Use</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/paymentsecurity">Security</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/privacypolicy">Privacy</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/sitemap">Sitemap</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/grievance-redressal-mechanism">Grievance Redressal</a></li>
-                    <li class="c-writing"><a href="https://www.flipkart.com/pages/ewaste-compliance-tnc">EPR Compliance</a></li>
-                </ul>
-            </div>
-
-            <div class="vertical-line"></div>
-            
-            <div class="mail-us">
-                <p class="mhead">Mail Us:</p>
-                <ul>
-                    <li class="m-writing">Flipkart Internet Private Limited,</li>
-                    <li class="m-writing">Buildings Alyssa, Begonia &</li>
-                    <li class="m-writing">Clove Embassy Tech Village,</li>
-                    <li class="m-writing">Outer Ring Road, Devarabeesanahalli Village,</li>
-                    <li class="m-writing">Bengaluru, 560103,</li>
-                    <li class="m-writing">Karnataka, India</li>
-                </ul>
-            </div>
-
-            <div class="reg-office">
-                <p class="rohead">Registered Office Address:</p>
-                <ul>
-                    <li class="ro-writing">Flipkart Internet Private Limited,</li>
-                    <li class="ro-writing">Buildings Alyssa, Begonia &</li>
-                    <li class="ro-writing">Clove Embassy Tech Village,</li>
-                    <li class="ro-writing">Outer Ring Road, Devarabeesanahalli Village,</li>
-                    <li class="ro-writing">Bengaluru, 560103,</li>
-                    <li class="ro-writing">Karnataka, India</li> 
-                    <li class="ro-writing">CIN: U51109KA2012PTC066107</li>
-                    <li class="ro-writing">Telephone: <a href="tel:044-45614700">044-45614700</a></li>
-                </ul>
-            </div>
-
-            <div class="social">
-                <p class="shead">Social:</p>
-                <ul>
-                    <li class="fb"><a href="https://www.facebook.com/flipkart"><img src="icons8-facebook-24.png" alt="Facebook Icon"></a></li>
-                    <li class="x"><a href="https://www.twitter.com/flipkart"><img src="icons8-x-24.png" alt="Twitter Icon"></a></li>
-                    <li class="yt"><a href="https://www.youtube.com/flipkart"><img src="icons8-youtube-24.png" alt="YouTube Icon"></a></li>
-                </ul>
-            </div>
+        <div class="about">
+            <p class="about-head">ABOUT</p>
+            <li class="about-writing"><a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_navlinks">Contact Us</a></li>
+            <li class="about-writing"><a href="https://corporate.flipkart.net/corporate-home">About Us</a></li>
+            <li class="about-writing"><a href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks">Careers</a></li>
+            <li class="about-writing"><a href="http://stories.flipkart.com/">Flipkart Stories</a></li>
+            <li class="about-writing"><a href="http://stories.flipkart.com/category/top-stories/news/">Press</a></li>
+            <li class="about-writing"><a href="https://www.flipkart.com/corporate-information">Corporate Information</a></li>
+        </div>
+        <div class="group-companies">
+            <p class="gchead">GROUP COMPANIES</p>
+            <li class="gc-writing"><a href="https://www.myntra.com/">Myntra</a></li>
+            <li class="gc-writing"><a href="https://www.flipkartwholesale.com/">Flipkart Wholesale</a></li>
+            <li class="gc-writing"><a href="https://www.cleartrip.com/">Cleartrip</a></li>
+            <li class="gc-writing"><a href="https://www.shopsy.in/">Shopsy</a></li>
+        </div>
+        <div class="help">
+            <p class="hhead">HELP</p>
+            <li class="h-writing"><a href="https://www.flipkart.com/pages/payments">Payments</a></li>
+            <li class="h-writing"><a href="https://www.flipkart.com/pages/shipping">Shipping</a></li>
+            <li class="h-writing"><a href="https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG">Cancellation & Returns</a></li>
+            <li class="h-writing"><a href="https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG">FAQ</a></li>
+            <li class="h-writing"><a href="https://seller.flipkart.com/fiv?otracker=${otracker}_navlinks">Report Infringement</a></li>
+        </div>
+        <div class="consumer">
+            <p class="chead">CONSUMER POLICY</p>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/returnpolicy?otracker=${otracker}_navlinks">Cancellation & Returns</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/terms?otracker=${otracker}_navlinks">Terms of Use</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/paymentsecurity?otracker=${otracker}_navlinks">Security</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/privacypolicy?otracker=${otracker}_navlinks">Privacy</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/sitemap?otracker=${otracker}_navlinks">Sitemap</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/grievance-redressal-mechanism?otracker=${otracker}_navlinks">Grievance Redressal</a></li>
+            <li class="c-writing"><a href="https://www.flipkart.com/pages/ewaste-compliance-tnc?otracker=${otracker}_navlinks">EPR Compliance</a></li>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="mail-us">
+            <p class="mhead">Mail Us:</p>
+            <li class="m-writing">Flipkart Internet Private Limited,</li>
+            <li class="m-writing">Buildings Alyssa, Begonia &</li>
+            <li class="m-writing">Clove Embassy Tech Village,</li>
+            <li class="m-writing">Outer Ring Road, Devarabeesanahalli Village,</li>
+            <li class="m-writing">Bengaluru, 560103,</li>
+            <li class="m-writing">Karnataka, India</li>
+        </div>
+        <div class="social">
+            <p class="shead">Social:</p>
+            <p class="fb"><a href="https://www.facebook.com/flipkart"><img src="icons8-facebook-24.png"></a></p>
+            <p class="x"><a href="https://www.twitter.com/flipkart"><img src="icons8-x-24.png"></a><p>
+            <p class="yt"><a href="https://www.youtube.com/flipkart"><img src="icons8-youtube-24.png"></a></p>
+        </div>
+        <div class="reg-office">
+            <p class="rohead">Registered Office Address:</p>
+            <li class="m-writing">Flipkart Internet Private Limited,</li>
+            <li class="ro-writing">Buildings Alyssa, Begonia &</li>
+            <li class="ro-writing">Clove Embassy Tech Village,</li>
+            <li class="ro-writing">Outer Ring Road, Devarabeesanahalli Village,</li>
+            <li class="ro-writing">Bengaluru, 560103,</li>
+            <li class="ro-writing">Karnataka, India</li> 
+            <li class="ro-writing">CIN: U51109KA2012PTC066107</li>
+            <li class="ro-writing">Telephone: <a href="tel:044-45614700">044-45614700</a></li>
+        </div>
         </div>
         <hr class="hor">
-        <div class="footer-links">
-            <p><img src="icons8-store-15.png"><a href="https://seller.flipkart.com/">Become a Seller</a></p>
-            <p><img src="icons8-shooting-star-15.png"><a href="https://brands.flipkart.com/">Advertise</a></p>
-            <p><img src="icons8-gift-15.png"><a href="https://www.flipkart.com/the-gift-card-store">Gift Cards</a></p>
-            <p><img src="icons8-help-15.png"><a href="https://www.flipkart.com/helpcentre">Help Center</a></p>
-            <p class="cprt">© 2007-2024 Flipkart.com</p>
-            <div class="pay-cards"><img src="paycard.svg" alt="Payment Cards"></div>
-        </div>
+        <p class="bas"><img src="icons8-store-15.png"><a href="https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect">Become a Seller</a></p>
+        <p class="adver"><img src="icons8-shooting-star-15.png"><a href="https://brands.flipkart.com/">Advertise</a></p>
+        <p class="gift"><img src="icons8-gift-15.png"><a href="https://www.flipkart.com/the-gift-card-store?otracker=${otracker}_footer_navlinks">Gift Cards</a></p>
+        <p class="help-cen"><img src="icons8-help-15.png"><a href="https://www.flipkart.com/helpcentre?otracker=${otracker}_footer_navlinks">Help Center</a></p>
+        <p class="cprt">© 2007-2024 Flipkart.com</p>
+        <div class="pay-cards"><img src="paycard.svg"></div>
     </footer>
 </body>
 </html>
+
+   
