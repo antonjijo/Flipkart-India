@@ -12,15 +12,15 @@
         );
 
         if (isMobileOrTablet) {
+            document.open();
             document.write(`
                 <h1>This website is intended for desktop/laptop users only.</h1>
-                <p>Still under development for Mobile and Tablet users.</p>
+                <p>Under Development for Mobile/Tablet users.</p>
                 <p>Please use a desktop or laptop to access this content.</p>
             `);
-
-            throw new Error("Mobile or tablet device detected");
+            document.close();
+            throw new Error("Access denied for mobile/tablet users.");
         }
-    </script>
 </head>
 <body>
     <center>
