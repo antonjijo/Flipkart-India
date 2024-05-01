@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart India</title>
     <link rel="icon" href="Logo.png">
-</head>
-<body>
     <script>
         var isMobileOrTablet = /iPhone|iPad|iPod|Android|BlackBerry|webOS|Windows Phone|Opera Mini|IEMobile/i.test(
           navigator.userAgent
         );
+
         if (isMobileOrTablet) {
-            document.body.innerHTML = `
+            document.write(`
                 <h1>This website is intended for desktop/laptop users only.</h1>
-                <h1>Still the website is under work for mobile and tablet users</h1>
+                <p>Still under development for Mobile and Tablet users.</p>
                 <p>Please use a desktop or laptop to access this content.</p>
-            `;
+            `);
+
+            throw new Error("Mobile or tablet device detected");
         }
     </script>
+</head>
+<body>
     <center>
 <a href="https://www.flipkart.com/"><img src="title.png"></a>
     </center>
