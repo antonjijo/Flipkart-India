@@ -1,0 +1,367 @@
+body{
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    background-color: rgb(241, 242, 244);
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    background-color: rgba(0, 60, 255, 0.795);
+    top: 0px;
+}
+li{
+    color: black;
+}
+.login{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lhov{
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+.cart{
+    display: inline-block;
+    vertical-align: middle;
+}
+.chov{
+    margin-right: 20px;
+}
+.txtcart{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sell{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2px;
+}
+.shov{
+    margin-right: 30px;
+}
+.txtsell{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.app{
+    display: inline-block;
+    vertical-align: middle;
+}
+li,ul{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.head{
+    display: inline;
+    vertical-align: middle;
+}
+.linkapp{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.options{
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration-style: none;
+}
+.signup{
+    color: black;
+}
+.profile{
+    color: black;
+}
+.search {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    height: 40px;
+    width: 400px;
+    border: 200px;
+    padding: 12px 12px 12px 40px; 
+    border-radius: 10px;
+    background-color: rgb(225, 243, 225);
+    visibility: initial;
+    font-size: medium;
+    background-image: url(icons8-search-18.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 12px;
+}
+.products{
+    display: inline;
+    padding-left: 60px;
+}
+.products a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+}
+.pro-box{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px;
+    border-color: rgb(163, 161, 161);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+}
+.gradient{
+    width: 38%;
+    height: 750px;
+    background: linear-gradient(45deg,#00ffff,#ff00c3,#16ff16);
+    margin-left: 100px;
+}
+.new{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 25px 85px 50px 80px;
+    padding-top: 60px;
+    background: linear-gradient(40deg,rgb(211, 208, 13),rgb(0, 255, 234),rgb(207, 231, 118));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sign{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 85px 50px 80px;
+    padding-top: -50px;
+    background: linear-gradient(40deg,rgb(211, 208, 13),rgb(0, 255, 234),rgb(207, 231, 118));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sign-img img{
+    height: 370px;
+    width: 345px;
+    padding-left: 70px;
+}
+.signup{
+    margin-left: 601px;
+    margin-top: -750.9px;
+    height: 750px;
+    width: 610px;
+    background-color: white;
+}
+form{
+    padding: 50px;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #aaa;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: none;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 8.5px;
+    color: #aaa;
+    font-size: 12px;
+}
+input:focus {
+    border-bottom-color: blue;
+}
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background:linear-gradient(45deg,rgb(255, 0, 234),rgb(0, 124, 128),rgb(27, 214, 2));
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.agree{
+    color: rgb(129, 121, 120);
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    font-size: 12px;
+    display: inline;
+}
+.privacy{
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    font-size: 12px;
+    display: inline;
+}
+.privacy a{
+    color: rgb(0, 68, 255);
+    text-decoration: none;
+}
+.login-button{
+    width: 83.8%;
+    margin: -60px 20px 0 49.5px;
+    height: 50px;
+    font-weight: bold;
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    font-size: 15px;
+    color: white;
+    background:linear-gradient(30deg,rgb(0, 255, 115),rgb(255, 0, 85),rgb(255, 187, 0));
+    border-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+footer {
+    color: white;
+    background-color: rgb(23, 36, 55);
+    width: 100%;
+    height: 415px;
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    margin: 30px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+.about,.group-companies,.help,.consumer,.mail-us,.social,.reg-office{
+    position: relative;
+    color: white;
+    display: inline;
+    padding-top: 40px;
+}
+.about-head,.gchead,.hhead,.chead,.mhead,.rohead,.shead{
+    color: rgb(129, 121, 120);
+    font-size: 13px;
+    padding-left: 20px;
+}
+.about-writing,.gc-writing,.h-writing,.c-writing,.m-writing,.ro-writing{
+    color: white;
+    font-size: 12.5px;
+    display: block;
+    padding-bottom: 3.5px;
+}
+.about-writing a,.gc-writing a,.h-writing a,.c-writing a,.m-writing a{
+    color: white;
+    text-decoration: none;
+}
+.about-writing a:hover,.gc-writing a:hover,.h-writing a:hover,.c-writing a:hover,.m-writing a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.about{
+    left: 30px;
+    top: 60px;
+}
+.group-companies{
+    left: 195px;
+    top: -92px;
+}
+.help{
+    left: 345px;
+    top: -207px;
+}
+.consumer{
+    left: 505px;
+    top: -340px;
+}
+.vertical-line{
+    border-left: 1px solid rgb(58, 58, 58);
+    height: 225px;
+    margin: 0 10px;
+    position: relative;
+    left: 680px;
+    top: -495px;
+}
+.mail-us{
+    left: 710px;
+    top: -732px;
+}
+.social{
+    left: 710px;
+    top: -720px;
+}
+.fb,.x,.yt{
+    position: relative;
+    display: inline;
+    top: 0;
+}
+.fb{
+    left: 15px;
+}
+.x{
+    left: 25px;
+}
+.yt{
+    left: 94px;
+    top: -44px;
+}
+.reg-office{
+    left: 990px;
+    top: -997px;
+}
+.ro-writing a{
+    text-decoration: none;
+    color: rgb(35, 104, 253);
+}
+.hor{
+    border: rgb(58, 58, 58);
+    border-top: 1px solid rgb(58, 58, 58); 
+    width: 100%;
+    position: relative;
+    top: -910px;
+    margin-bottom: 10px;
+}
+.bas,.adver,.gift,.help-cen,.cprt,.pay-cards{
+    position: relative;
+    color: white;
+    font-size: 13px;
+    display: inline;
+}
+.bas,.adver,.gift,.help-cen,.cprt{
+    top: -893px;
+}
+.bas a,.adver a,.gift a,.help-cen a{
+     color: white;
+     font-size: 12.5px;
+     text-decoration: none;
+     padding-left: 8px;
+}
+.bas img,.adver img,.gift img,.help-cen img{
+    vertical-align: middle;
+}
+.bas{
+    left:50px;
+}
+.adver{
+    left: 110px;
+}
+.gift{
+    left: 170px;
+}
+.help-cen{
+    left: 230px;
+}
+.cprt{
+    left: 290px;
+}
+.pay-cards{
+    left: 350px;
+    top: -888px;
+}

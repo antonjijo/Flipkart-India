@@ -1,0 +1,284 @@
+body{
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    background-color: rgb(241, 242, 244);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    background-color: rgba(0, 60, 255, 0.795);
+    top: 0px;
+}
+li{
+    color: black;
+}
+.login{
+    display: inline-block;
+    vertical-align: middle;
+}
+.lhov{
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+.cart{
+    display: inline-block;
+    vertical-align: middle;
+}
+.chov{
+    margin-right: 20px;
+}
+.txtcart{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sell{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2px;
+}
+.shov{
+    margin-right: 30px;
+}
+.txtsell{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.app{
+    display: inline-block;
+    vertical-align: middle;
+}
+li,ul{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.head{
+    display: inline;
+    vertical-align: middle;
+}
+.linkapp{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.options{
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration-style: none;
+}
+.signup{
+    color: black;
+}
+.profile{
+    color: black;
+}
+.search {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    height: 40px;
+    width: 400px;
+    border: 200px;
+    padding: 12px 12px 12px 40px; 
+    border-radius: 10px;
+    background-color: rgb(225, 243, 225);
+    visibility: initial;
+    font-size: medium;
+    background-image: url(icons8-search-18.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 12px;
+}
+.products{
+    display: inline;
+    padding-left: 60px;
+}
+.products a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+}
+.pro-box{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px;
+    border-color: rgb(163, 161, 161);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+}
+.plusimg img{
+    margin-top: 10px;
+}
+.writings{
+    background-color: white;
+    height: 400px;
+    width: 96%;
+    margin-top: 25px;
+    padding: 30px;
+    padding-top: 20px;
+    border-top: 1px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(167, 157, 157);
+    border-style: solid;
+}
+.writings-head{
+    color: rgb(131, 131, 131);
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: -1px;
+}
+.words{
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    font-size: 11.3px;
+    color: rgb(124, 123, 123);
+    margin-bottom: 50px;
+}
+footer {
+    color: white;
+    background-color: rgb(23, 36, 55);
+    width: 100%;
+    height: 415px;
+    font-family: Roboto Medium,Roboto-Medium,Droid Sans,HelveticaNeue-Medium,Helvetica Neue Medium,sans-serif-medium;
+    padding: 0;
+    overflow: hidden;
+}
+.about,.group-companies,.help,.consumer,.mail-us,.social,.reg-office{
+    position: relative;
+    color: white;
+    display: inline;
+    padding-top: 40px;
+}
+.about-head,.gchead,.hhead,.chead,.mhead,.rohead,.shead{
+    color: rgb(129, 121, 120);
+    font-size: 13px;
+    padding-left: 20px;
+}
+.about-writing,.gc-writing,.h-writing,.c-writing,.m-writing,.ro-writing{
+    color: white;
+    font-size: 12.5px;
+    display: block;
+    padding-bottom: 3.5px;
+}
+.about-writing a,.gc-writing a,.h-writing a,.c-writing a,.m-writing a{
+    color: white;
+    text-decoration: none;
+}
+.about-writing a:hover,.gc-writing a:hover,.h-writing a:hover,.c-writing a:hover,.m-writing a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.about{
+    left: 30px;
+    top: 60px;
+}
+.group-companies{
+    left: 195px;
+    top: -92px;
+}
+.help{
+    left: 345px;
+    top: -207px;
+}
+.consumer{
+    left: 505px;
+    top: -340px;
+}
+.vertical-line{
+    border-left: 1px solid rgb(58, 58, 58);
+    height: 225px;
+    margin: 0 10px;
+    position: relative;
+    left: 680px;
+    top: -495px;
+}
+.mail-us{
+    left: 710px;
+    top: -732px;
+}
+.social{
+    left: 710px;
+    top: -720px;
+}
+.fb,.x,.yt{
+    position: relative;
+    display: inline;
+    top: 0;
+}
+.fb{
+    left: 15px;
+}
+.x{
+    left: 25px;
+}
+.yt{
+    left: 94px;
+    top: -44px;
+}
+.reg-office{
+    left: 990px;
+    top: -997px;
+}
+.ro-writing a{
+    text-decoration: none;
+    color: rgb(35, 104, 253);
+}
+.hor{
+    border: rgb(58, 58, 58);
+    border-top: 1px solid rgb(58, 58, 58); 
+    width: 100%;
+    position: relative;
+    top: -910px;
+    margin-bottom: 10px;
+}
+.bas,.adver,.gift,.help-cen,.cprt,.pay-cards{
+    position: relative;
+    color: white;
+    font-size: 13px;
+    display: inline;
+}
+.bas,.adver,.gift,.help-cen,.cprt{
+    top: -893px;
+}
+.bas a,.adver a,.gift a,.help-cen a{
+     color: white;
+     font-size: 12.5px;
+     text-decoration: none;
+     padding-left: 8px;
+}
+.bas img,.adver img,.gift img,.help-cen img{
+    vertical-align: middle;
+}
+.bas{
+    left:50px;
+}
+.adver{
+    left: 110px;
+}
+.gift{
+    left: 170px;
+}
+.help-cen{
+    left: 230px;
+}
+.cprt{
+    left: 290px;
+}
+.pay-cards{
+    left: 350px;
+    top: -888px;
+}

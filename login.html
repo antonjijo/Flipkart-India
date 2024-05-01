@@ -1,10 +1,10 @@
-<link rel="stylesheet" href="up.css">
+<link rel="stylesheet" href="login.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flipkart-Signup</title>
+    <title>Flipkart-Login</title>
     <link rel="icon" href="Logo.png">
 </head>
 <body>
@@ -14,8 +14,8 @@
         );
         if (isMobileOrTablet) {
             document.body.innerHTML = `
-                <h1 class=warning>This website is intended for desktop/laptop users only.</h1>
-                <h1>Still the website is under work for mobile and tablet users....</h1>
+                <h1>This website is intended for desktop/laptop users only.</h1>
+                <h1>Still the website is under work for mobile and tablet users</h1>
                 <p>Please use a desktop or laptop to access this content.</p>
             `;
         }
@@ -55,8 +55,8 @@
         <div class="products"><a href="https://www.flipkart.com/two-wheelers-store?pageUID=1712686289769">Two-wheelers</a></div>
     </ul></div>
     <div class="gradient">
-        <p class="new">Looks like you're new here!</p>
-        <p class="sign">Sign up with your mobile number to get started</p>
+        <p class="new">Login</p>
+        <p class="sign">Get access to your Orders, Wishlist and Recommendations</p>
         <div class="sign-img"><img src="signup.png"></div>
     </div>
     <div class="signup">
@@ -64,20 +64,21 @@
             <div class="form-group">
                 <input
                     type="tel"
+                    type="email"
                     id="phone"
                     name="phone"
                     pattern="[0-9]{10}"
                     required
                     placeholder=" "
                 />
-                <label for="phone">Enter Mobile number</label>
+                <label for="phone">Enter Email/Mobile number</label>
             </div>
             <p class="agree">
                 By continuing, you agree to Flipkart's <div class="privacy"><a href="https://www.flipkart.com/pages/terms">Terms of Use</a></div> <p class="agree">and</p> <div class="privacy"><a href="https://www.flipkart.com/pages/privacypolicy">Privacy Policy.</a></div>
             </p>
-            <input type="submit" value="CONTINUE">
+            <input type="submit" value="Request OTP">
         </form>
-        <a href="login.html"><button class="Login-button">Existing User?Log in</button></a>
+        <a href="upflip.html"><button class="Login-button">New to Flipkart? Create New Account</button></a>
     </div>
     <footer>
         <div class="footer-container">
