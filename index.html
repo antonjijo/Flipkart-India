@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="Flip-desktop.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,53 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart India</title>
     <link rel="icon" href="Logo.png">
-    <link rel="stylesheet" href="Flip-desktop.css"> <!-- Your CSS file -->
-
-    <!-- Mobile/Tablet detection script -->
-    <script>
-        var isMobileOrTablet = /iPhone|iPad|iPod|Android|BlackBerry|webOS|Windows Phone|Opera Mini|IEMobile/i.test(
-          navigator.userAgent
-        );
-
-        if (isMobileOrTablet) {
-            document.open();
-            document.write(`
-                <h1>This website is intended for desktop/laptop users only.</h1>
-                <p>Under Development for Mobile/Tablet users.</p>
-                <p>Please use a desktop or laptop to access this content.</p>
-            `);
-            document.close();
-            throw new Error("Mobile or tablet users are not allowed.");
-        }
-    </script>
 </head>
 <body>
-    <!-- Content only visible to desktop/laptop users -->
     <center>
-        <a href="https://www.flipkart.com/"><img src="title.png" alt="Flipkart"></a>
+<a href="https://www.flipkart.com/"><img src="title.png"></a>
     </center>
-    
     <nav class="navbar">
-        <div class="head"><a href="https://www.flipkart.com/"><img src="logoheader.svg" alt="Logo"></a></div>
+        <div class="head"><a href="https://www.flipkart.com/"><img src="logoheader.svg"></a></div>
         <ul class="navul">
             <li>
-                <input type="text" class="search" placeholder="Search for Products, Brands, and more">
+                <input type="text" class="search" placeholder="Search for Products, Brands and more">
             </li>
-            <li class="lhov"><div class="Login"><img src="icons8-user-24.png" alt="User Icon"></div> Login 
+            <li class="lhov"><div class="Login"><img src="icons8-user-24.png"></div> Login 
                 <select class="options" onchange="if(this.value !== '') window.location.href=this.value;">
                     <option value=""></option>
                     <option class="signup" value="upflip.html">Signup</option>
-                    <option class="profile" value="profile.html">My Profile</option>
+                    <option class="profile" value="profile.html">My profile</option>
                     <option class="plus" value="plus.html">Flipkart Plus Zone</option>
                     <option class="orders" value="orders.html">Orders</option>
                     <option class="wishlist" value="wishlist.html">Wishlist</option>
                     <option class="rewards" value="rewards.html">Rewards</option>
-                    <option class="redeem" value="redeem.html">Gift Cards</option>
-                </select>
-            </li>
-            <li class="chov"><div class="cart"><a class="txtcart" href="cart.html"><img src="icons8-cart-24.png" alt="Cart Icon"></div> Cart</a></li>
-            <li><div class="sell"><a class="txtsell" href="sell.html"><img src="icons8-store-front-24.png" alt="Store Icon"></div> Become a seller</a></li>
-            <li><a class="linkapp" href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"><div class="app"><img src="icons8-flipkart-32.png" alt="App Icon"></div> Install App</a></li>
+                    <option class="redeem" value="redeem.html">Gift cards</option>
+                  </select>
+                  </li>
+            <li class="chov"><div class="cart"><a class="txtcart" href="cart.html"><img src="icons8-cart-24.png"></div> Cart</a></li>
+            <li><div class="sell"><a class="txtsell" href="sell.html"><img src="icons8-store-front-24.png"></div> Become a seller</a></li>
+            <li><a class="linkapp" href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps"><div class="app"><img src="icons8-flipkart-32.png"></div>Install app</a></li>
         </ul>
     </nav>
     <div class="items">
