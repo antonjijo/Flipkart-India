@@ -9,8 +9,10 @@ body::-webkit-scrollbar{
     display: none;
 }
 .navbar{
-    background-color: rgba(0, 60, 255, 0.795);
+    visibility: visible;
+    background-color: blue;
     top: 0px;
+    position: sticky;
 }
 li{
     color: black;
@@ -59,8 +61,13 @@ li,ul{
     padding-left: 20px;
 }
 .head{
-    display: inline;
-    vertical-align: middle;
+    display: inline-block;
+    top: 19px;
+    position: relative;
+}
+.fl img{
+    height: 27px;
+    padding-left: 70px;
 }
 .linkapp{
     color: white;
