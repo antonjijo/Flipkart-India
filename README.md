@@ -4,7 +4,7 @@
   <img src="URL_TO_PROFILE_PIC" alt="Profile Picture" width="150" height="150">
 </p>
 <p align="center">
-  <strong>Your Name</strong>
+  <strong color="red">J.A ANTON JIJO</strong>
 </p>
 
 
