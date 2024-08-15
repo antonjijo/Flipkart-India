@@ -1,8 +1,7 @@
 <h1 align="center">HI EVERYONE I'm J.A ANTON JIJO</h1>
 <h3 align="center">A learning student from India</h3>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7874884f-3b5c-4e6b-8f43-ee52aff716dc
-" alt="Profile Picture" width="150" height="150">
+  <img src="D:\resume\IMG20240715221931.jpg" alt="Profile Picture" width="150" height="150">
 </p>
 <p align="center">
   <strong style="color:red;">J.A ANTON JIJO</strong>
