@@ -8,7 +8,6 @@
 
 - 🔭 I’m currently working on front-end [Flipkart](https://antonjijo.github.io/Flipkart-India/)
 
-- 🌱 I’m currently learning Deep Learning **Python**
 
 - Email: **antonjijo2018@outlook.com**
 
