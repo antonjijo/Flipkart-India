@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=antonjijo&label=Repo%20views&color=green&style=flat" alt="antonjijo" /> </p>
 
-<p align="left"> <a href="https://twitter.com/Anton_Jijo" target="blank"><img src="https://img.shields.io/twitter/follow/Anton_jijo?logo=twitter&style=for-the-badge" alt="anton_jijo" /></a> </p>
+<p align="left"> <a href="https://twitter.com/Anton_Jijo" target="blank"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png" alt="twitterx--v2"alt="anton_jijo" /></a> </p>
 
 - 🔭 I’m currently working on front-end [Flipkart](https://antonjijo.github.io/Flipkart-India/)
 
