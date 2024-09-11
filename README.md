@@ -4,7 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=antonjijo&label=Repo%20views&color=green&style=flat" alt="antonjijo" /> </p>
 
 
-- 🔭 I’m currently working on front-end [Flipkart](https://antonjijo.github.io/Flipkart-India/)
+- 🔭 I’m currently working on front-end [**Flipkart**](https://antonjijo.github.io/Flipkart-India/)
 
 
 - Email: **antonjijo2018@outlook.com**
