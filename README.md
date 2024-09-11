@@ -1,7 +1,7 @@
 
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=antonjijo&label=Repo%20views&color=green&style=flatvj" alt="antonjijo" /> </p>
+
 
 
 - 🔭 I’m currently working on front-end [**Flipkart**](https://antonjijo.github.io/Flipkart-India/)
